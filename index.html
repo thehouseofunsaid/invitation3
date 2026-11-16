@@ -156,6 +156,10 @@ html,body{margin:0;width:100%;height:100%;background:#12030a;overflow:hidden;pos
 .cwrap video{opacity:0}
 .cwrap.plain video{opacity:1}
 @keyframes reveal{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0 0 0 0)}}
+.endname{font-family:'Great Vibes',cursive;font-size:120px;line-height:1.15;color:#fff0c2;white-space:nowrap;text-shadow:0 3px 14px rgba(60,0,20,.7);margin-top:6px}
+.endom{width:130px;height:130px;margin:18px auto 0;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff3c8,#e2b45a 45%,#9a6a1c 100%);
+  display:flex;align-items:center;justify-content:center;font-family:serif;font-size:78px;color:#5c0b26;box-shadow:0 0 40px rgba(255,220,140,.8)}
+.endhar{font-family:'Cinzel',serif;font-size:44px;letter-spacing:10px;color:#f2cf7e;margin-top:22px;text-shadow:0 2px 10px rgba(60,0,20,.7)}
 /* tap to open */
 .wait *,.wait *::before,.wait *::after{animation-play-state:paused !important}
 #tap{position:fixed;left:0;top:0;width:100vw;height:100vh;height:100dvh;z-index:100;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;transition:opacity .8s ease,visibility .8s ease}
@@ -347,15 +351,16 @@ html,body{margin:0;width:100%;height:100%;background:#12030a;overflow:hidden;pos
   <div class="txt ln" style="font-size:44px;animation-delay:30.3s">Hyderabad</div>
 </div>
 
-<!-- 5. Couple, revealed line by line -->
+<!-- 5. Couple, then Manjula & Family, then Om -->
 <div class="scene last" style="--d:31.8s;--dur:8.2s">
-  <div class="label txt lnc" style="animation-delay:32s;margin-bottom:20px">WITH LOVE &amp; BLESSINGS</div>
-  <div style="position:relative;width:560px;height:1000px">
+  <div class="label txt up" style="animation-delay:32s;margin-bottom:10px">WITH LOVE &amp; BLESSINGS</div>
+  <div style="position:relative;width:480px;height:860px">
     <div class="cglow"></div>
     <div class="cwrap" id="cwrap"><video id="couple" src="invitation3%20image2.mp4" muted loop playsinline preload="auto"></video><canvas id="ccan"></canvas></div>
   </div>
-  <div class="wrl ln" style="font-size:118px;margin-top:10px;white-space:nowrap;animation-delay:34.6s">Manjula &amp; Family</div>
-  <div class="caps gold lnc" style="font-size:46px;letter-spacing:8px;margin-top:16px;animation:writec 1.1s ease-out 35.6s both, shine 3s linear infinite">Har Har Mahadev</div>
+  <div class="endname up" style="animation-delay:34.4s">Manjula &amp; Family</div>
+  <div class="endom up" style="animation-delay:35.2s">ॐ</div>
+  <div class="endhar up" style="animation-delay:35.8s">HAR HAR MAHADEV</div>
 </div>
 
 </div>
